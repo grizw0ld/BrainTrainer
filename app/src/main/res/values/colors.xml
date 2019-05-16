@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffca28</color>
+    <color name="colorPrimaryDark">#c79a00</color>
+    <color name="colorAccent">#fffd61</color>
+    <color name="btnColor1">#f46242</color>
+    <color name="btnColor2">#b4dded</color>
+    <color name="btnColor3">#ff2b95</color>
+    <color name="btnColor4">#47ff2a</color>
+    <color name="btnTextColor">#000000</color>
+    <color name="timerColor">#ba3116</color>
+    <color name="timerTextColor">#ffffff</color>
+</resources>
