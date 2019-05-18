@@ -92,7 +92,14 @@ public class MainActivity extends AppCompatActivity {
         int correctAnswerBoxAssignment = randomNumberGenerator(0,3);
         for(int i = answerButtons.size()-1;i>-1;i--){
             if(i!=correctAnswerBoxAssignment){
-                answerButtons.get(i).setText(String.valueOf(randomNumberGenerator(1,100)));
+                while(true){
+                    int x = randomNumberGenerator(1,100);
+                    if(x!=answer){
+                        answerButtons.get(i).setText(String.valueOf(x));
+                        break;
+                    }
+                }
+
             }else{
                 answerButtons.get(i).setText(String.valueOf(answer));
             }
